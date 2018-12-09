@@ -1,5 +1,5 @@
-import sessions from './data/sessions.js'
-import users from './data/users.js'
+import sessions from './data_files/sessions.js'
+import users from './data_files/users.js'
 
 function showContent() {
     const table = document.getElementsByTagName('table')[0];

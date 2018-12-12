@@ -1,6 +1,7 @@
 import sessions from './data_files/sessions.js';
 import users from './data_files/users.js';
 import './tooltip.js';
+import './chart.js';
 
 function tableGen() {
   const fragment = document.createDocumentFragment();

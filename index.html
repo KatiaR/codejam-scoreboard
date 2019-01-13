@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Result-table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <script type="module" src="main.js"></script>
+</head>
+
+<body>
+        <input type="radio" id="rsschool" name="rsschool" value="rsschool" checked>
+        <label for="rsschool">Rsschool</label>
+        <input type="radio" id="rsschool-demo" name="rsschool" value="rsschool-demo">
+        <label for="rsschool-demo">Rsschool-demo</label>
+        <table>
+            <thead>
+                <tr>
+                    <th>DisplayName</th>
+                    <th>TotalTime</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="names">
+                    <td class='participants'></td>
+                </tr>
+            </tbody>
+        </table>
+ <div class= "tooltip">
+     
+ </div>
+ <canvas id="myChart"></canvas>
+</body>
+
+</html>

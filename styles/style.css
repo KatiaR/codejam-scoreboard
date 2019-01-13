@@ -1,0 +1,22 @@
+table td, th, tr {
+border: 1px solid black;
+position: relative;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    padding: 10px 20px;
+    border: 1px solid #b3c9ce;
+    border-radius: 4px;
+    text-align: center;
+    color: #333;
+    background: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.active {
+    display: block; 
+}
+.hide {
+    display: none; 
+}
+  
